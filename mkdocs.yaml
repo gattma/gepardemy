@@ -1,0 +1,8 @@
+site_name: "gepardemy"
+site_description: "gepardemy backstage test repo"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
