@@ -23,6 +23,7 @@ metadata:
     'sonarqube.org/project-key': gattma_gepardemy
     'prometheus.io/alert': ErrorBudgetBurn-critical--prod-gepardemy,ErrorBudgetBurn-warning--prod-gepardemy
     'prometheus.io/rule': virtual_service:_prod_gepardemy:error_rate_1d,virtual_service:_prod_gepardemy:error_rate_1h,virtual_service:_prod_gepardemy:error_rate_2h,virtual_service:_prod_gepardemy:error_rate_30m
+    'backstage.io/kubernetes-namespace': gepardemy-test
 spec:
   type: service
   lifecycle: experimental
